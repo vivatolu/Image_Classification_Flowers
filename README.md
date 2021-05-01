@@ -8,7 +8,7 @@ In this project, I train an image classifier to recognize 102 different species 
 There are five (5) files, two main files (train.py and predict.py) and three helper files
 
 - data_loader.py: loads train data, test data, and validation data with torchvision's ImageFolder
-- model_loader.py: loads a pretrained network such as VGG16 from torchvision.models and the parameters are frozen
+- model_loader.py: loads a pretrained network such as AlexNet from torchvision.models and the parameters are frozen
 - checkpoints.py: saves the trained model as a checkpoint along with associated hyperparameters and the class_to_idx dictionary. This module also loads a saved checkpoint and rebuilds the model
 - train.py: trains the feedforward classifier, while the parameters of the feature network are left static
 - predict.py. takes the path to an input mage and a checkpoint, then returns the top K most probably labels for that image
