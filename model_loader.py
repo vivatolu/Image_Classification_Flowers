@@ -11,7 +11,7 @@ from collections import OrderedDict
 
 
 
-def load_model(args, model_name='alexnet', hidden_layer=1024, train=True): #model_name has a default value of 'vgg13' and hidden layer has a default value of 2048 if no value is provided
+def load_model(args, model_name='alexnet', hidden_layer=1024, train=True): #model_name has a default value of 'alexnet' and hidden layer has a default value of 1024 if no value is provided
     if args.arch:
         model_name = args.arch
 
