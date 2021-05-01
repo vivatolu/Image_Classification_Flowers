@@ -1,6 +1,6 @@
 # Image_Classification_Flowers
 
-This is the code for Udacity's Machine Learning with PyTorch Nanodegree program
+This is the code base for Udacity Machine Learning with PyTorch Nanodegree program's Deep Learning project
 
 In this project, I train an image classifier to recognize 120 different species of flowers. This can be embedded within an application
 
