@@ -2,7 +2,7 @@
 
 This is the code base for Udacity Machine Learning with PyTorch Nanodegree program's Deep Learning project
 
-In this project, I train an image classifier to recognize 120 different species of flowers. This can be embedded within an application
+In this project, I train an image classifier to recognize 102 different species of flowers. This can be embedded within an application
 
 
 There are five (5) files, two main files (train.py and predict.py) and three helper files
