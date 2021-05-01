@@ -18,18 +18,17 @@ There are five (5) files, two main files (train.py and predict.py) and three hel
 To run this application on the command line, there are required and optional arguments for train.py and predict.py
 
 #### train.py
-data_dir. directory with train, test, and validation subfolders. Mandatory argument. - 'str'
---save_dir. directory to save trained model_loader. Optional argument with. - 'str'
---arch. Model architecture e.g alexnet, vgg13, and vgg16. Optional argument used if provided else Alexnet will be used with - 'str'
---learning_rate. optional argument. - 'float'
---hidden_units: specifies the number of units in the hidden layer. optional argument used if provided else 1024 is use. - 'int'
---epochs: 'Number of epochs', type = int
---gpu: specifies gpu or cpu is used in training the model. Optional argument
-Following arguments mandatory or optional for predict.py
+- data_dir. directory with train, test, and validation subfolders. Mandatory argument. - 'str'
+- --save_dir. directory to save trained model_loader. Optional argument with. - 'str'
+- --arch. Model architecture e.g alexnet, vgg13, and vgg16. Optional argument used if provided else Alexnet will be used with - 'str'
+- --learning_rate. optional argument. - 'float'
+- --hidden_units: specifies the number of units in the hidden layer. optional argument used if provided else 1024 is use. - 'int'
+- --epochs: 'Number of epochs', type = int
+- --gpu: specifies gpu or cpu is used in training the model. Optional argument
 
 #### predict.py
-image_dir: path to input image. Required argument. - 'str'
-load_dir: path to checkpoint. Required argument. - 'str'
---top_k: specifies the top likely classes. Optional argument. - 'int'
---category_names: helps to map classes to actual flower categories. Optional argument. - 'str'
---gpu: specifies gpu or cpu is used in predicting the label of the input image. Optional argument. - boolean
+- image_dir: path to input image. Required argument. - 'str'
+- load_dir: path to checkpoint. Required argument. - 'str'
+- --top_k: specifies the top likely classes. Optional argument. - 'int'
+- --category_names: helps to map classes to actual flower categories. Optional argument. - 'str'
+- --gpu: specifies gpu or cpu is used in predicting the label of the input image. Optional argument. - boolean
