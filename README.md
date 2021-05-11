@@ -1,6 +1,6 @@
 # Image_Classification_Flowers
 
-This is the code base for Flower's image classification Deep Learning project with Udacity
+This is my codebase for Flower's image classification Deep Learning project with Udacity
 
 In this project, I train an image classifier to recognize 102 different species of flowers. This can be embedded within an application
 
